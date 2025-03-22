@@ -72,19 +72,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "ShopZone - Ecommerce App",
+    des: "ShopZone is a sleek eCommerce app that makes online shopping effortless with smart recommendations, secure checkout, and a seamless user experience using React.js",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "/shopzone-app.netlify.app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Lyriks - Music App",
+    des: "Lyriks is a music app that lets you search and play songs instantly, delivering a seamless listening experience powered by RapidAPI",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "/https://lyrik-appv3.netlify.app/",
   },
   {
     id: 3,

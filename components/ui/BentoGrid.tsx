@@ -3,14 +3,16 @@ import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
-import Lottie from "react-lottie";
-import { cn } from "@/lib/utils";
+//import Lottie from "react-lottie";
 
+import { cn } from "@/lib/utils";
+import dynamic from "next/dynamic";
 import { BackgroundGradientAnimation } from "./GradientBG";
 import { GridGlobe } from "./GridGlobe";
 import animationData from "@/data/conffetti.json";
 import MagicButton from "../ui/MagicButton";
 
+const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 export const BentoGrid = ({
   className,
   children,
@@ -49,7 +51,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
+  const leftLists = ["React.js", "Next.js", "Typescript"];
   const rightLists = ["MongoDB", "MySQL", "Figma"];
 
   const [copied, setCopied] = useState(false);
@@ -103,11 +105,7 @@ export const BentoGridItem = ({
             />
           )}
         </div>
-        {id === 6 && (
-          <BackgroundGradientAnimation>
-            <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl" />
-          </BackgroundGradientAnimation>
-        )}
+        {id === 6 && <BackgroundGradientAnimation />}
         <div
           className={cn(
             titleClassName,
