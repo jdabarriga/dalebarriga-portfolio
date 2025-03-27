@@ -38,11 +38,13 @@ const Hero = () => {
             {" "}
             Hi, I&apos;m Dale, a Next.JS Developer based in Colorado USA.
           </p>
+
           <a href="/about">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
+              otherClasses=""
             />
           </a>
         </div>
