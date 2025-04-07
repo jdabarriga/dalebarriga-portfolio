@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36" id="about">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -36,7 +36,7 @@ const Hero = () => {
           />
           <p className="text-center tracking-wider mb-4 text-small md:text-large lg:text-2xl">
             {" "}
-            Hi, I&apos;m Dale, a Next.JS Developer based in Colorado USA.
+            Hi, I&apos;m Dale, a Software Engineer based in Colorado USA.
           </p>
 
           <a href="/about">
