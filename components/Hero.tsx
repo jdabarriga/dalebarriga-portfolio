@@ -7,7 +7,7 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36" id="about">
+    <div className="pb-20 pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -39,7 +39,7 @@ const Hero = () => {
             Hi, I&apos;m Dale, a Software Engineer based in Colorado USA.
           </p>
 
-          <a href="/about">
+          <a href="/#about">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

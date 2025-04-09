@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently looking for new opportunities",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -74,34 +74,26 @@ export const projects = [
     id: 1,
     title: "ShopZone - Ecommerce App",
     des: "ShopZone is a sleek eCommerce app that makes online shopping effortless with smart recommendations, secure checkout, and a seamless user experience using React.js",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    img: "/shopzone.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg","/mongodb.svg","/rapidapi.svg","/stripe.svg"],
     link: "/shopzone-app.netlify.app",
   },
   {
     id: 2,
     title: "Lyriks - Music App",
     des: "Lyriks is a music app that lets you search and play songs instantly, delivering a seamless listening experience powered by RapidAPI",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    img: "/lyriks.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/rapidapi.svg","/fm.svg"],
     link: "/https://lyrik-appv3.netlify.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+    title: "Raven",
+    des: "a Java code visualization tool created with React.js and custom lexer/parser, which provides a comprehensive overview of the project's structure and provide a high-level perspective on the codebase",
+    img: "/raven.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/electron.svg"],
+    link: "N/A",
+  }
 ];
 
 export const testimonials = [
@@ -173,15 +165,15 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Frontend/Backend Developer Raven",
+    desc: "Developed front-end components using React.js and developed custom lexer and parser, enhancing interactivity and parsing.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Web App Dev - ShopZone",
+    desc: "Designed and developed web app, utilizing MongoDB and implemented fully usable checkout using Stripe.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
