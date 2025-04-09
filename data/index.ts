@@ -73,7 +73,7 @@ export const projects = [
   {
     id: 1,
     title: "ShopZone - Ecommerce App",
-    des: "ShopZone is a sleek eCommerce app that makes online shopping effortless with smart recommendations, secure checkout, and a seamless user experience using React.js",
+    des: "a sleek eCommerce app that makes online shopping effortless with smart recommendations, secure checkout, and a seamless user experience using React.js",
     img: "/shopzone.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg","/mongodb.svg","/rapidapi.svg","/stripe.svg"],
     link: "/shopzone-app.netlify.app",
@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 2,
     title: "Lyriks - Music App",
-    des: "Lyriks is a music app that lets you search and play songs instantly, delivering a seamless listening experience powered by RapidAPI",
+    des: "a music app that lets you search and play songs instantly, delivering a seamless listening experience powered by RapidAPI",
     img: "/lyriks.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/rapidapi.svg","/fm.svg"],
     link: "/https://lyrik-appv3.netlify.app/",
@@ -96,38 +96,6 @@ export const projects = [
   }
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
 
 export const companies = [
   {
@@ -197,13 +165,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/jdabarriga"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/gmail.svg",
+    link: "https://mail.google.com/mail/u/0/?fs=1&to=jdabarriga@gmail.com&su=&body&tf=cm"
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/dale-barriga-b7a1b626b/"
   },
 ];
