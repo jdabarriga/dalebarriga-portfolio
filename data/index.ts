@@ -92,7 +92,7 @@ export const projects = [
     des: "a Java code visualization tool created with React.js and custom lexer/parser, which provides a comprehensive overview of the project's structure and provide a high-level perspective on the codebase",
     img: "/raven.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/electron.svg"],
-    link: "N/A",
+    link: "https://ravendemo-jdab.netlify.app/",
   }
 ];
 
