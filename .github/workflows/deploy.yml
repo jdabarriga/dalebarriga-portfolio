@@ -36,5 +36,9 @@ jobs:
           port: 21
           protocol: ftp
           local-dir: ./out/
-          server-dir: ./public_html/
+          server-dir: /domains/dalebarriga.com/public_html/
           log-level: verbose
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
