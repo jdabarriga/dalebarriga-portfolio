@@ -84,7 +84,7 @@ export const projects = [
     des: "a music app that lets you search and play songs instantly, delivering a seamless listening experience powered by RapidAPI",
     img: "/lyriks.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/rapidapi.svg","/fm.svg"],
-    link: "https://lyrik-appv3.netlify.app/",
+    link: "https://lyriksapp-jdab.netlify.app/",
   },
   {
     id: 3,
