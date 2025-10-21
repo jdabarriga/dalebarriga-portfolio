@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
@@ -16,7 +17,7 @@ const RecentProjects = () => {
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
-            <PinContainer title={link} href={link}>
+            <PinContainer title={link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] lg:h-[30vh] sm:h-[40vh]">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
                   <img src="/bg.png" alt="bg-img" />
@@ -47,19 +48,23 @@ const RecentProjects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 hover:scale-105 transition-transform"
-                    onClick={(e) => e.stopPropagation()}
                   >
                     <img src="/git.svg" alt="GitHub" className="w-5 h-5" />
                     <p className="lg:text-base md:text-xs text-sm text-white">
-                      GitHub
+                      GitHub Repo
                     </p>
                   </a>
-                  <div className="flex justify-center items-center">
+                  <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex justify-center items-center hover:scale-105 transition-transform"
+                  >
                     <p className="flex lg:text-base md:text-xs text-sm text-purple-600">
                       Live Site
                     </p>
                     <FaLocationArrow className="ms-2" color="#CBACF9" />
-                  </div>
+                  </a>
                 </div>
               </div>
             </PinContainer>
