@@ -11,7 +11,7 @@ const RecentProjects = () => {
         <span className="text-purple-600">Recent Projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
-        {projects.map(({ id, title, des, img, iconLists, link }) => (
+        {projects.map(({ id, title, des, img, iconLists, link, github }) => (
           <div
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
@@ -41,11 +41,25 @@ const RecentProjects = () => {
                     </div>
                   ))}
                 </div>
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple-600">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                <div className="flex gap-3 items-center">
+                  <a
+                    href={github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 hover:scale-105 transition-transform"
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    <img src="/git.svg" alt="GitHub" className="w-5 h-5" />
+                    <p className="lg:text-base md:text-xs text-sm text-white">
+                      GitHub
+                    </p>
+                  </a>
+                  <div className="flex justify-center items-center">
+                    <p className="flex lg:text-base md:text-xs text-sm text-purple-600">
+                      Live Site
+                    </p>
+                    <FaLocationArrow className="ms-2" color="#CBACF9" />
+                  </div>
                 </div>
               </div>
             </PinContainer>

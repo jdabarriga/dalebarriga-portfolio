@@ -77,6 +77,7 @@ export const projects = [
     img: "/shopzone.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg","/mongodb.svg","/rapidapi.svg","/stripe.svg"],
     link: "https://shopzone-app.netlify.app/",
+    github: "https://github.com/jdabarriga/ShopZoneCS350",
   },
   {
     id: 2,
@@ -85,6 +86,7 @@ export const projects = [
     img: "/lyriks.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/rapidapi.svg","/fm.svg"],
     link: "https://lyriksapp-jdab.netlify.app/",
+    github: "https://github.com/jdabarriga/LyrikApp",
   },
   {
     id: 3,
@@ -93,9 +95,9 @@ export const projects = [
     img: "/raven.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/electron.svg"],
     link: "https://ravendemo-jdab.netlify.app/",
+    github: "https://github.com/jdabarriga/raven-jdab",
   }
 ];
-
 
 export const companies = [
   {
